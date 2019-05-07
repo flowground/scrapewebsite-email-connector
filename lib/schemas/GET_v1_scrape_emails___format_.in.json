@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "website": {
+            "required": true,
+            "type": "string"
+        },
+        "must_include": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}
