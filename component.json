@@ -33,7 +33,7 @@
         "GET_v1_ping___format_": {
             "main": "./lib/actions/GET_v1_ping___format_.js",
             "title": "Returns whether the system is up.",
-            "description": "<p>Returns 'pong' if the site is up</p>\n",
+            "description": "Returns 'pong' if the site is up",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",

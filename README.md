@@ -5,11 +5,11 @@
 A generated **flow**ground connector for the Scrape Website Email API API (version 0.1).
 
 Generated from: https://api.apis.guru/v2/specs/scrapewebsite.email/0.1/swagger.json<br/>
-Generated at: 2019-05-07T17:43:58+03:00
+Generated at: 2019-07-08T14:35:57+03:00
 
 ## API Description
 
-ScrapeWebsiteEmail is a service that exposes an api to fetch e-mails from a website.
+ScrapeWebsiteEmail is a service that exposes an api to fetch e-mails from a website.<br/>
 
 ## Authorization
 
@@ -18,8 +18,7 @@ This API does not require authorization.
 ## Actions
 
 ### Returns whether the system is up.
-
-> <p>Returns 'pong' if the site is up</p>
+<blockquote><p>Returns 'pong' if the site is up</p></blockquote>
 
 *Tags:* `ping`
 
@@ -29,7 +28,6 @@ This API does not require authorization.
 
 #### Input Parameters
 * `website` - _required_ - <p>The website (ie. www.soundflair.com)</p>
-
 * `must_include` - _optional_ - <table>
   <tbody>
     <tr>
@@ -39,14 +37,12 @@ This API does not require authorization.
   </tbody>
 </table>
 
-
 ### Attempts to grab the google store url or the ios store url for a site, after searching through the site.
 
 *Tags:* `scrape_store_links`
 
 #### Input Parameters
 * `website` - _required_ - <p>The website (ie. www.soundflair.com)</p>
-
 
 ## License
 
